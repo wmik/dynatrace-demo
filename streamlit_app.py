@@ -1141,6 +1141,3 @@ if show_recommendations:
         
         st.write(f'''## Annual margin for {team_name_map[team_key]} is <span style="color:{'limegreen' if annual_margin > 0 else 'crimson'};">{format_currency(round(annual_margin))}</span>''', unsafe_allow_html=True)
         st.write('---')
-
-table_data = {'Column 1': [1, 2], 'Column 2': [3, 4]}
-st.write(pd.DataFrame(data=table_data))
